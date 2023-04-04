@@ -534,3 +534,7 @@ i[class*='van-type-'] {
 .login-error {
     color: red;
 }
+
+.red {
+    color: #cc0000;
+}

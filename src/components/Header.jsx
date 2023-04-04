@@ -1,6 +1,10 @@
 import { Link, NavLink } from 'react-router-dom'
 import avatar from '../assets/images/avatar-icon.png'
 
+function fakeLogin() {
+    localStorage.removeItem('loggedin')
+}
+
 export default function Navbar() {
     const activeStyle = {
         fontWeight: 'bold',
@@ -35,6 +39,7 @@ export default function Navbar() {
                 <Link to="login" className="login-link">
                     <img src={avatar} className="login-icon" alt="Login Icon" />
                 </Link>
+                <button onClick={fakeLogin}>X</button>
             </nav>
         </header>
     )

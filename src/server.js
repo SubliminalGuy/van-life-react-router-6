@@ -75,9 +75,9 @@ createServer({
         })
         server.create('user', {
             id: '123',
-            email: 'subliminal_kid@posteo.de',
+            email: 'b@b.com',
             password: 'p123',
-            name: 'David',
+            name: 'Bob',
         })
     },
 
